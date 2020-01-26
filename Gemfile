@@ -41,7 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
   gem 'rspec'
-  gem 'cucumber'
+  gem 'cucumber', require: false
   gem 'aruba'
   gem 'rspec-rails'
   gem 'cucumber-rails'
